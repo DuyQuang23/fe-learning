@@ -1,0 +1,1258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, sans-serif;
+  color: #2F4858;
+}
+
+.container-custom {
+  max-width: 1140px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.top-bar {
+  background-color: #EFF1F4;
+  border-bottom: 1px solid #eee;
+}
+.top-bar .Gr1000001888 {
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px 0;
+}
+.top-bar .Gr1000001888 p {
+  font-size: 15px;
+  color: #52606B;
+  margin: 0;
+}
+.top-bar .Gr1000001888 p .doctor-name {
+  color: #3580DB;
+  font-weight: 600;
+}
+
+.Gr1000001886 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 0;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.Gr1000001886 .header-logo img {
+  height: 48px;
+}
+.Gr1000001886 .header-info {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.Gr1000001886 .header-info .info-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.Gr1000001886 .header-info .info-item img {
+  width: 36px;
+  height: 36px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  flex-shrink: 0;
+}
+.Gr1000001886 .header-info .info-item .info-text p {
+  margin: 0;
+}
+.Gr1000001886 .header-info .info-item .info-text .title {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+.Gr1000001886 .header-info .info-item .info-text .content {
+  font-size: 13px;
+  color: #677987;
+  line-height: 1.4;
+  margin-top: 2px;
+}
+
+.main-nav {
+  background-color: #3580DB;
+  min-height: 60px;
+  height: auto;
+}
+.main-nav .nav-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.main-nav .nav-wrapper .nav-list {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  margin: 0px;
+}
+.main-nav .nav-wrapper .nav-list .nav-item a {
+  display: block;
+  color: #FFFFFF;
+  padding: 17px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+.main-nav .nav-wrapper .nav-list .nav-item.active {
+  background-color: #2A50AA;
+}
+.main-nav .nav-wrapper .nav-search {
+  margin-left: auto;
+}
+@media (max-width: 768px) {
+  .main-nav .nav-wrapper .nav-search {
+    margin: 10px auto;
+  }
+}
+
+.hero-banner {
+  background-image: url("assets/bg.png");
+  min-height: 600px;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+}
+.hero-banner .hero-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.hero-banner .hero-wrapper .hero-content {
+  flex: 1;
+  z-index: 2;
+  padding: 80px 0;
+  min-width: 300px;
+}
+.hero-banner .hero-wrapper .hero-content .hero-title {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: clamp(32px, 5vw, 48px);
+  font-weight: 800;
+  color: #887DDE;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 100%;
+  max-width: 667px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero-banner .hero-wrapper .hero-content .hero-title .second-color {
+  color: #06407E;
+}
+.hero-banner .hero-wrapper .hero-content .hero-subline {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.hero-banner .hero-wrapper .hero-content .hero-subline .script-font {
+  font-family: "Be Vietnam Pro", sans-serif, cursive;
+  font-size: clamp(36px, 6vw, 54px);
+}
+.hero-banner .hero-wrapper .hero-content .hero-subline .highlight-red {
+  color: #ED1427;
+  font-weight: 700;
+  font-size: clamp(24px, 4vw, 36px);
+}
+.hero-banner .hero-wrapper .hero-content .hero-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 15px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.hero-banner .hero-wrapper .hero-content .hero-features .feature-item {
+  background: linear-gradient(90deg, #3580DB, #8B7DDE);
+  color: #FFFFFF;
+  padding: 5px 30px;
+  border-radius: 30px 0 30px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+}
+.hero-banner .hero-wrapper .doctor-image {
+  width: 100%;
+  max-width: 300px;
+  position: relative;
+  right: 0;
+  margin: 0 auto;
+}
+@media (min-width: 1024px) {
+  .hero-banner .hero-wrapper .doctor-image {
+    right: 100px;
+  }
+}
+
+.services {
+  background: url("assets/bg2.png");
+  background-size: cover;
+  width: 100%;
+  min-height: 591px;
+  height: auto;
+  padding-bottom: 50px;
+}
+.services .service-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.services .service-wrapper .service-content {
+  width: 100%;
+  max-width: 457px;
+  margin-right: 0;
+}
+@media (min-width: 1024px) {
+  .services .service-wrapper .service-content {
+    margin-right: 98px;
+  }
+}
+.services .service-wrapper .service-content .service-title {
+  color: #3580DB;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 700;
+  font-size: clamp(28px, 5vw, 40px);
+  margin-top: 60px;
+}
+.services .service-wrapper .service-content .service-title .third-color {
+  color: #020B27;
+}
+.services .service-wrapper .service-content .service-sub-content {
+  font-family: "Be Vietnam Pro", sans-serif;
+  line-height: 26px;
+  margin-top: 20px;
+}
+.services .service-wrapper .service-content .all-service {
+  width: 100%;
+  max-width: 184px;
+  height: 48px;
+  background-color: #3580DB;
+  color: #FFFFFF;
+  border-radius: 30px;
+  border: none;
+  font-weight: 700;
+  text-align: center;
+  line-height: 48px;
+  margin-top: 30px;
+}
+.services .service-wrapper .services-item {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  margin-top: 60px;
+  width: 100%;
+  flex: 1;
+}
+.services .service-wrapper .services-item .service-item {
+  background-color: #FFFFFF;
+  margin-left: 0;
+  width: 100%;
+  max-width: 280px;
+  margin: 0 auto;
+}
+.services .service-wrapper .services-item .service-item img {
+  margin: 24px 0 12px 24px;
+}
+.services .service-wrapper .services-item .service-item.title {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #2A50AA;
+  margin-bottom: 12px;
+  padding-left: 24px;
+}
+.services .service-wrapper .services-item .service-item.content {
+  font-family: "SF Pro Display";
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 24px;
+}
+.services .service-wrapper .services-item .service-item.one {
+  height: 198px;
+  border-radius: 40px 0 0 0;
+}
+.services .service-wrapper .services-item .service-item.two {
+  height: 198px;
+  border-radius: 0 40px 0 0;
+}
+.services .service-wrapper .services-item .service-item.three {
+  height: 248px;
+  border-radius: 0 0 0 40px;
+}
+.services .service-wrapper .services-item .service-item.four {
+  height: 248px;
+  border-radius: 0 0 40px 0;
+}
+
+.about-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin-top: 70px;
+  flex-wrap: wrap;
+}
+.about-wrapper .about-content {
+  flex: 1;
+  min-width: 300px;
+}
+.about-wrapper .about-content .section-title {
+  font-size: clamp(28px, 5vw, 40px);
+  font-weight: 700;
+  color: #020B27;
+  margin-bottom: 20px;
+}
+.about-wrapper .about-content .description {
+  line-height: 26px;
+  color: #374151;
+  margin-bottom: 15px;
+}
+.about-wrapper .about-content .achieve-list {
+  list-style: none;
+  margin: 25px 0;
+  padding: 0px;
+}
+.about-wrapper .about-content .achieve-list li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.about-wrapper .about-content .btn-all-services {
+  width: 100%;
+  max-width: 184px;
+  height: 48px;
+  background-color: #8B7DDE;
+  color: #FFFFFF;
+  border-radius: 30px;
+  border: none;
+  font-weight: 700;
+  text-align: center;
+  line-height: 48px;
+  margin-top: 25px;
+}
+
+.promo-carousel .owl-dots {
+  text-align: center;
+  margin-top: 30px;
+}
+.promo-carousel .owl-dots .owl-dot {
+  display: inline-block;
+}
+.promo-carousel .owl-dots .owl-dot span {
+  width: 8px;
+  height: 8px;
+  background-color: #C1C8D1;
+  margin: 8px;
+  display: block;
+  border-radius: 50%;
+}
+.promo-carousel .owl-dots .owl-dot.active span {
+  width: 30px;
+  background-color: #3580DB;
+  border-radius: 8px;
+}
+.promo-carousel .promo-banner {
+  background-image: url("assets/bg4.png");
+  background-size: cover;
+  border-radius: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  color: #FFFFFF;
+  margin-top: 70px;
+  padding-bottom: 30px;
+}
+.promo-carousel .promo-banner .promo-title {
+  font-family: "Barlow", sans-serif;
+  font-weight: 800;
+  font-size: clamp(24px, 4vw, 32px);
+  padding: 37px 20px 15.5px 20px;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .promo-carousel .promo-banner .promo-title {
+    padding-left: 60px;
+  }
+}
+.promo-carousel .promo-banner .promo-subtitle {
+  font-family: "Be Vietnam Pro", sans-serif;
+  padding: 0 20px;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .promo-carousel .promo-banner .promo-subtitle {
+    padding-left: 60px;
+  }
+}
+.promo-carousel .promo-banner .promo-offers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 25px;
+  padding: 0 20px;
+}
+@media (min-width: 768px) {
+  .promo-carousel .promo-banner .promo-offers {
+    margin-left: 60px;
+    padding: 0;
+  }
+}
+.promo-carousel .promo-banner .promo-offers .offer-box {
+  width: 100%;
+  max-width: 177px;
+  min-height: 86px;
+  background-color: #EA4C89;
+  border: 2px solid #E0F2F1;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 12px;
+}
+.promo-carousel .promo-banner .promo-offers .offer-box [class^=offer-title] {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+}
+.promo-carousel .promo-banner .promo-offers .offer-box .offer-title1 {
+  font-size: 20px;
+}
+.promo-carousel .promo-banner .promo-offers .offer-box .offer-title2 {
+  font-size: 16px;
+}
+.promo-carousel .promo-banner .promo-offers .offer-box [class^=offer-content] {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  margin-top: 5px;
+}
+.promo-carousel .promo-banner .promo-offers .plus-icon {
+  margin-top: 30px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  display: none;
+}
+@media (min-width: 576px) {
+  .promo-carousel .promo-banner .promo-offers .plus-icon {
+    display: block;
+  }
+}
+.promo-carousel .promo-banner .promo-hotline {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 166px;
+  height: 36px;
+  margin: 20px 20px 0 20px;
+  border: 2px solid #E0F2F1;
+  border-radius: 40px;
+  padding-left: 3px;
+}
+@media (min-width: 768px) {
+  .promo-carousel .promo-banner .promo-hotline {
+    margin-left: 60px;
+  }
+}
+.promo-carousel .promo-banner .promo-hotline img {
+  width: 28px;
+  height: 28px;
+  margin-right: 2px;
+}
+
+.pharmacy {
+  margin-top: 70px;
+  background-color: #F0F8FF;
+}
+.pharmacy .pharmacy-header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 50px 20px;
+}
+.pharmacy .pharmacy-header .pharmacy-title {
+  font-weight: 700;
+  font-size: clamp(28px, 5vw, 40px);
+  color: #3580DB;
+}
+.pharmacy .pharmacy-header .pharmacy-subtitle {
+  font-size: 18px;
+  line-height: 26px;
+}
+.pharmacy .product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  -moz-column-gap: 16px;
+       column-gap: 16px;
+  row-gap: 24px;
+  padding-bottom: 50px;
+}
+.pharmacy .product-card {
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.pharmacy .product-card .discount-badge {
+  width: 100%;
+  max-width: 53px;
+  max-height: 24px;
+  border-radius: 12px 0 12px 0;
+  padding: 2px 8px;
+  gap: 10px;
+  background-color: #EA4C89;
+}
+.pharmacy .product-card .product-name {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+.pharmacy .product-card .product-desc {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  flex-grow: 1;
+}
+.pharmacy .product-card .product-price {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  color: #388FF3;
+  margin: 10px 0;
+}
+.pharmacy .product-card .product-price span {
+  font-weight: 400;
+}
+.pharmacy .product-card .btn-buy {
+  width: 100%;
+  max-width: 193px;
+  min-height: 32px;
+  border-radius: 16px;
+  background-color: #3580DB;
+  color: #FFFFFF;
+  border-style: none;
+  padding: 8px 10px;
+  gap: 2px;
+  margin: 0 auto;
+  display: block;
+}
+.pharmacy .product-card .product-info {
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.doctors-section {
+  background-color: #FFFFFF;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.doctors-section .doctors-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.doctors-section .doctors-header .section-title {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 700;
+  font-size: clamp(28px, 5vw, 40px);
+  line-height: 1;
+}
+.doctors-section .doctors-header .control-btn {
+  border-style: none;
+  background-color: #FFFFFF;
+}
+.doctors-section .doctors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  border-radius: 16px;
+  margin-top: 40px;
+}
+.doctors-section .doctors-grid .doctor-info {
+  text-align: center;
+  padding-top: 20px;
+}
+.doctors-section .doctors-grid .doctor-info .doctor-name {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 36px;
+  color: #020B27;
+}
+.doctors-section .doctors-grid .doctor-info .doctor-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #374151;
+}
+.doctors-section .doctors-grid .doctor-info .btn-schedule {
+  width: 100%;
+  max-width: 175px;
+  min-height: 44px;
+  padding: 10px 20px;
+  background-color: #E5F3FE;
+  margin-top: 10px;
+}
+.doctors-section .doctors-grid .doctor-info .btn-schedule img {
+  color: #3580DB;
+}
+.doctors-section .doctors-grid .doctor-info .btn-schedule {
+  border-radius: 30px;
+  border-style: none;
+}
+
+.advantages-section {
+  background-color: #316EC9;
+}
+.advantages-section .advantages-title {
+  padding-top: 50px;
+  text-align: center;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 700;
+  font-size: clamp(28px, 5vw, 40px);
+  line-height: 1.2;
+  color: #FFFFFF;
+}
+.advantages-section .advantages-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.advantages-section .advantages-wrapper .advantages-list {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-bottom: 40px;
+  flex: 1;
+  min-width: 300px;
+}
+@media (min-width: 1024px) {
+  .advantages-section .advantages-wrapper .advantages-list {
+    margin-top: 73px;
+    padding-bottom: 82px;
+  }
+}
+.advantages-section .advantages-wrapper .advantages-list .advantage-item {
+  display: flex;
+  gap: 16px;
+}
+.advantages-section .advantages-wrapper .advantages-list .advantage-item .advantage-icon {
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.advantages-section .advantages-wrapper .advantages-list .advantage-item .advantage-icon img {
+  display: block;
+  max-width: 50%;
+}
+.advantages-section .advantages-wrapper .advantages-list .advantage-item .advantage-text {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.advantages-section .advantages-wrapper .advantages-gallery {
+  padding-top: 40px;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+  width: 100%;
+}
+@media (min-width: 1024px) {
+  .advantages-section .advantages-wrapper .advantages-gallery {
+    width: auto;
+    padding-left: 30px;
+  }
+}
+.advantages-section .advantages-wrapper .advantages-gallery .gallery-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 9px;
+  gap: 9px;
+}
+
+.news-section .news-header {
+  padding-top: 70px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.news-section .news-header .section-header {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 700;
+  font-size: clamp(28px, 5vw, 40px);
+  line-height: 100%;
+}
+.news-section .news-header .section-subtitle {
+  margin-top: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+}
+.news-section .news-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-bottom: 70px;
+}
+.news-section .news-wrapper .news-card-large {
+  max-width: 555px;
+}
+.news-section .news-wrapper .news-card-large .news-img-large {
+  margin-bottom: 20px;
+  width: 100%;
+}
+.news-section .news-wrapper .news-card-large .news-info {
+  font-family: "Inter", sans-serif;
+  flex: 1;
+  min-width: 300px;
+}
+.news-section .news-wrapper .news-card-large .news-info .news-date,
+.news-section .news-wrapper .news-card-large .news-info .news-description {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  margin-bottom: 16px;
+}
+.news-section .news-wrapper .news-card-large .news-info .news-title-large {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 12px;
+}
+.news-section .news-wrapper .news-card-large .news-info .btn-view-more {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 12px 30px;
+  border-radius: 48px;
+  margin-top: 8px;
+  background-color: #3580DB;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  border-style: none;
+}
+.news-section .news-wrapper .news-grid-small {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(262px, 1fr));
+  row-gap: 30px;
+  -moz-column-gap: 29px;
+       column-gap: 29px;
+  flex: 1;
+  max-width: 554px;
+}
+.news-section .news-wrapper .news-grid-small .news-card-small {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.news-section .news-wrapper .news-grid-small .news-card-small .news-info-small {
+  font-family: "Inter", sans-serif;
+}
+.news-section .news-wrapper .news-grid-small .news-card-small .news-info-small .news-date {
+  font-size: 15px;
+  line-height: 22px;
+}
+.news-section .news-wrapper .news-grid-small .news-card-small .news-info-small .news-date img {
+  margin-right: 8px;
+}
+.news-section .news-wrapper .news-grid-small .news-card-small .news-info-small .news-date {
+  margin-bottom: 10px;
+}
+.news-section .news-wrapper .news-grid-small .news-card-small .news-info-small .news-title-small {
+  color: #2F4858;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.question {
+  background-color: #F0F8FF;
+}
+.question .question-header {
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 40px;
+}
+.question .question-header .question-title {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 700;
+  font-size: clamp(28px, 5vw, 40px);
+  line-height: 100%;
+  margin-bottom: 16px;
+  color: #020B27;
+}
+.question .question-header .question-subtitle {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+}
+.question .question-list-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  counter-reset: question-counter;
+}
+.question .question-list-wrapper .question-list {
+  font-family: "Inter", sans-serif;
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  max-width: 1000px;
+  line-height: 26px;
+}
+.question .question-list-wrapper .question-list .arrow {
+  margin-left: auto;
+}
+.question .question-list-wrapper .question-list .question-name {
+  counter-increment: question-counter;
+  font-weight: 600;
+  font-size: 17px;
+  color: #2A50AA;
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+}
+.question .question-list-wrapper .question-list .question-name::before {
+  content: counter(question-counter) ". ";
+  margin-right: 5px;
+}
+.question .question-list-wrapper .question-list .question-name.active .arrow {
+  transform: rotate(180deg);
+}
+.question .question-list-wrapper .question-list .question-name.active + .question-answer {
+  visibility: visible;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  font-size: 15px;
+  font-weight: 400;
+  border-bottom: 1px dotted #D2DDE7;
+  color: #4B5563;
+}
+.question .question-list-wrapper .question-list .question-answer {
+  transition: all;
+  visibility: hidden;
+  max-height: 0;
+}
+.question .question-list-wrapper .question-list .list-ques .question-name {
+  border-bottom: 1px solid #E5E7EB;
+  padding: 18px 0;
+  margin-bottom: 0;
+  color: #020B27;
+}
+
+.contact {
+  background-image: url("assets/bg6.png");
+  padding: 30px 0;
+  background-size: cover;
+}
+.contact .container-custom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 1200px) {
+  .contact .container-custom {
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+  }
+}
+.contact .container-custom img {
+  width: 631px;
+  height: auto;
+}
+@media (max-width: 1200px) {
+  .contact .container-custom img {
+    width: 100%;
+    max-width: 631px;
+  }
+}
+.contact .container-custom .popup-contact {
+  background-color: #FFFFFF;
+  width: 554px;
+  min-height: 433px;
+  border-radius: 12px;
+  text-align: center;
+}
+@media (max-width: 1200px) {
+  .contact .container-custom .popup-contact {
+    width: 100%;
+    max-width: 554px;
+  }
+}
+.contact .container-custom .popup-contact .first-sec,
+.contact .container-custom .popup-contact .second-sec {
+  padding: 40px 30px;
+}
+@media (max-width: 576px) {
+  .contact .container-custom .popup-contact .first-sec,
+  .contact .container-custom .popup-contact .second-sec {
+    padding: 40px 20px;
+  }
+}
+.contact .container-custom .popup-contact .first-sec .book-title,
+.contact .container-custom .popup-contact .first-sec .advise,
+.contact .container-custom .popup-contact .second-sec .book-title,
+.contact .container-custom .popup-contact .second-sec .advise {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.2;
+  color: #020B27;
+  margin-bottom: 10px;
+}
+@media (max-width: 576px) {
+  .contact .container-custom .popup-contact .first-sec .book-title,
+  .contact .container-custom .popup-contact .first-sec .advise,
+  .contact .container-custom .popup-contact .second-sec .book-title,
+  .contact .container-custom .popup-contact .second-sec .advise {
+    font-size: 24px;
+  }
+}
+.contact .container-custom .popup-contact .first-sec .sub-title,
+.contact .container-custom .popup-contact .second-sec .sub-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #374151;
+}
+.contact .container-custom .popup-contact .first-sec {
+  border-bottom: 1px dotted #E5F3FE;
+}
+.contact .container-custom .popup-contact .first-sec .btn-booking {
+  width: 273px;
+  height: 44px;
+  border-radius: 12px;
+  margin-top: 30px;
+  color: #FFFFFF;
+  border: none;
+  background: linear-gradient(to right, #3580DB, #8B7DDE);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 576px) {
+  .contact .container-custom .popup-contact .first-sec .btn-booking {
+    width: 100%;
+  }
+}
+.contact .container-custom .popup-contact .first-sec .btn-booking img {
+  width: 18px;
+  height: 20px;
+  margin-right: 8px;
+}
+.contact .container-custom .popup-contact .second-sec .advise {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+@media (max-width: 576px) {
+  .contact .container-custom .popup-contact .second-sec .advise {
+    font-size: 22px;
+  }
+}
+.contact .container-custom .popup-contact .second-sec .regis-form {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  max-width: 494px;
+  margin: 0 auto;
+}
+@media (max-width: 576px) {
+  .contact .container-custom .popup-contact .second-sec .regis-form {
+    flex-wrap: wrap;
+  }
+}
+.contact .container-custom .popup-contact .second-sec .regis-form input {
+  width: 100%;
+  height: 48px;
+  border: 1px solid #E4E8ED;
+  border-right: none;
+  border-radius: 8px;
+  padding-left: 15px;
+  outline: none;
+}
+@media (max-width: 576px) {
+  .contact .container-custom .popup-contact .second-sec .regis-form input {
+    flex: 1;
+    min-width: 200px;
+  }
+}
+.contact .container-custom .popup-contact .second-sec .regis-form .btn-regis {
+  width: 115px;
+  height: 48px;
+  background: linear-gradient(to right, #3580DB, #8B7DDE);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+}
+@media (max-width: 576px) {
+  .contact .container-custom .popup-contact .second-sec .regis-form .btn-regis {
+    width: 100%;
+  }
+}
+
+.partners .container-custom {
+  text-align: center;
+  margin-bottom: 128px;
+}
+.partners .container-custom .partners-header {
+  margin-top: 70px;
+  margin-bottom: 50px;
+  width: 100%;
+  max-width: 931px;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.partners .container-custom .partners-header .partners-title {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 700;
+  color: #020B27;
+  font-size: clamp(28px, 5vw, 40px);
+  line-height: 100%;
+  margin-bottom: 16px;
+}
+.partners .container-custom .partners-header .partners-subtitle {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+}
+.partners .container-custom .partner-carousel .owl-dots {
+  text-align: center;
+  margin-top: 30px;
+}
+.partners .container-custom .partner-carousel .owl-dots .owl-dot {
+  display: inline-block;
+}
+.partners .container-custom .partner-carousel .owl-dots .owl-dot span {
+  width: 8px;
+  height: 8px;
+  background-color: #C1C8D1;
+  margin: 8px;
+  display: block;
+  border-radius: 50%;
+}
+.partners .container-custom .partner-carousel .owl-dots .owl-dot.active span {
+  width: 30px;
+  background-color: #3580DB;
+  border-radius: 8px;
+}
+.partners .container-custom .partner-carousel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer {
+  background-color: #3580DB;
+  padding-bottom: 50px;
+  position: relative;
+}
+.footer .hotline {
+  position: static;
+  width: 100%;
+  max-width: 263px;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 1024px) {
+  .footer .hotline {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    margin: 0;
+    justify-content: flex-start;
+  }
+}
+.footer .hotline img {
+  width: 100%;
+  max-width: 261px;
+  margin-right: 0;
+}
+@media (min-width: 1024px) {
+  .footer .hotline img {
+    margin-right: 68px;
+  }
+}
+.footer .float-actions {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+@media (min-width: 1024px) {
+  .footer .float-actions {
+    bottom: 30px;
+    right: 30px;
+  }
+}
+.footer .float-actions .btn-top,
+.footer .float-actions .btn-msg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .container-custom .footer-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  row-gap: 40px;
+  justify-content: space-between;
+}
+.footer .container-custom .footer-wrapper .brand-info {
+  margin-top: 40px;
+  width: 100%;
+  flex: 1 1 250px;
+  max-width: 263px;
+}
+.footer .container-custom .footer-wrapper .brand-info .contact-list {
+  margin-top: 26px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+.footer .container-custom .footer-wrapper .brand-info .contact-list .contact-item {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+.footer .container-custom .footer-wrapper .brand-info .contact-list .contact-item span {
+  font-weight: 400;
+}
+.footer .container-custom .footer-wrapper .brand-info .contact-list .contact-item img {
+  margin-right: 8px;
+}
+.footer .container-custom .footer-wrapper .brand-info .social-links {
+  display: flex;
+  width: auto;
+  height: 36px;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  flex-shrink: 0;
+}
+.footer .container-custom .footer-wrapper .footer-col {
+  margin-top: 40px;
+  width: 100%;
+  flex: 1 1 200px;
+  max-width: 263px;
+  color: #FFFFFF;
+}
+.footer .container-custom .footer-wrapper .footer-col .footer-title {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  padding-bottom: 16px;
+  border-bottom: solid 1px #52AEFB;
+}
+.footer .container-custom .footer-wrapper .footer-col .footer-links {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  margin-top: 15px;
+}
+.footer .container-custom .footer-wrapper .footer-col .footer-links a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.footer .container-custom .footer-wrapper .work-hours {
+  width: 100%;
+  flex: 1 1 250px;
+  max-width: 263px;
+  margin-top: 50px;
+}
+.footer .container-custom .footer-wrapper .work-hours .hours-card {
+  background-color: #316EC9;
+  padding: 40px 25px 25px;
+  border-radius: 15px;
+  text-align: center;
+  color: #FFFFFF;
+  position: relative;
+}
+.footer .container-custom .footer-wrapper .work-hours .hours-card .hours-icon {
+  position: absolute;
+  top: -27px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #FFFFFF;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .container-custom .footer-wrapper .work-hours .hours-card .hours-icon img {
+  width: 31.5px;
+  height: 31.5px;
+  display: block;
+}
+.footer .container-custom .footer-wrapper .work-hours .hours-card h4 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.footer .container-custom .footer-wrapper .work-hours .hours-card .hours-row {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #3580DB;
+  padding: 8px 0;
+  font-size: 14px;
+}
+.footer .container-custom .footer-wrapper .work-hours .hours-card .hours-row:last-child {
+  border-bottom: none;
+}/*# sourceMappingURL=style.css.map */

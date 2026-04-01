@@ -33,10 +33,21 @@
 <body>
     <header class="main-header">
         <div class="top-bar">
+           
             <div class="container-custom Gr1000001888">
+
+                <div class="icon-heart">
+                    <img src="assets/icon-heart.png" alt="icon-heart">
+                </div>
+
                 <p>Chào mừng đến với Phòng Khám Tai Mũi Họng chất lượng cao! của <span class="doctor-name">Bs Nguyễn Huy
                         Hiếu</span>, Bs khám và điều trị</p>
+                
+                <a href="#" class="icon-media-header">
+                    <img src="assets/icon-media-header.png" alt="icon-media-header">
+                </a>
             </div>
+            
         </div>
 
         <div class="container-custom Gr1000001886">
@@ -74,8 +85,14 @@
         </div>
         <nav class="main-nav">
             <div class="container-custom nav-wrapper">
-                <ul class="nav-list">
-                    <li class="nav-item active"> <a href="#">Trang chủ</a> </li>
+                <button class="nav-toggle" id="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <ul class="nav-list" id="nav-list">
+                    <li class="nav-item"> <a href="#">Trang chủ</a> </li>
                     <li class="nav-item"> <a href="#">Khám bệnh họng thanh quản</a></li>
                     <li class="nav-item"> <a href="#">Khám bệnh mũi xoang</a></li>
                     <li class="nav-item"> <a href="#">Khám bệnh tai</a></li>
@@ -83,6 +100,7 @@
                     <li class="nav-item"> <a href="#">Tin tức</a></li>
                     <li class="nav-item"> <a href="#">Liên hệ</a></li>
                 </ul>
+
                 <div class="nav-search">
                     <a href="#"><img src="assets/icon-search.png" alt="search"></a>
                 </div>
@@ -145,35 +163,98 @@
                 </div>
                 <button class="all-service">Xem tất cả dịch vụ</button>
             </div>
+
             <div class="services-item">
                 <div class="service-item one">
                     <img src="assets/icon-service-item1.png" alt="icon-service-item1">
-                    <div class="service-item title">Xét nghiệm HIV & STI</div>
-                    <div class="service-item content">Xét nghiệm với những sinh phẩm ứng dụng công nghệ mới nhất được
+                    <div class="service-item-title">Xét nghiệm HIV & STI</div>
+                    <div class="service-item-content">Xét nghiệm với những sinh phẩm ứng dụng công nghệ mới nhất được
                         phép lưu hành tại Việt Nam.</div>
                 </div>
                 <div class="service-item two">
                     <img src="assets/icon-service-item2.svg" alt="icon-service-item2">
-                    <div class="service-item title">Điều trị ARV</div>
-                    <div class="service-item content">Tư vấn, hỗ trợ bạn trong việc tiếp cận phác đồ điều trị HIV tiên
+                    <div class="service-item-title">Điều trị ARV</div>
+                    <div class="service-item-content">Tư vấn, hỗ trợ bạn trong việc tiếp cận phác đồ điều trị HIV tiên
                         tiến nhất được Bộ Y tế cấp phép.</div>
                 </div>
                 <div class="service-item three">
                     <img src="assets/icon-service-item3.png" alt="icon-service-item3">
-                    <div class="service-item title">Dự phòng trước phơi nhiễm HIV PrEP</div>
-                    <div class="service-item content">Dùng PrEP như một lá chắn bảo vệ hoàn hảo trước HIV, để luôn cảm
+                    <div class="service-item-title">Dự phòng trước phơi nhiễm HIV PrEP</div>
+                    <div class="service-item-content">Dùng PrEP như một lá chắn bảo vệ hoàn hảo trước HIV, để luôn cảm
                         thấy an toàn và cởi mở trước những cơ hội tình cảm mới.</div>
                 </div>
                 <div class="service-item four">
                     <img src="assets/icon-service-item4.png" alt="icon-service-item4">
-                    <div class="service-item title">Dự phòng sau phơi nhiễm HIV PrEP</div>
-                    <div class="service-item content">Dùng PrEP như một lá chắn bảo vệ hoàn hảo trước HIV, để luôn cảm
+                    <div class="service-item-title">Dự phòng sau phơi nhiễm HIV PrEP</div>
+                    <div class="service-item-content">Dùng PrEP như một lá chắn bảo vệ hoàn hảo trước HIV, để luôn cảm
                         thấy an toàn và cởi mở trước những cơ hội tình cảm mới.</div>
+                </div>
+            </div>
+
+        </div>
+            
+        <a href="#" class="icon-share-social">
+            <img src="assets/icon-share-social.png" alt="icon-share-social">
+        </a>
+
+    </section>
+    <!-- <section class="services">
+        <div class="container-custom">
+            <div class="row align-items-center service-wrapper"> 
+                
+                <div class="col-12 col-lg-5">
+                    <div class="service-content">
+                        <h1 class="service-title">
+                            Dịch vụ nổi bật <br>
+                            <span class="third-color">tại Medivax</span>
+                        </h1>
+                        <p class="service-sub-content">
+                           Đội ngũ bác sĩ và nhân viên của chúng tôi luôn sẵn sàng phục vụ bạn. Chúng tôi là phòng khám một cửa (on-stop) chuyên cung cấp tất cả các loại hình xét nghiệm đến các cuộc hẹn tư vấn riêng tư về dự phòng và điều trị các bệnh liên quan đến sức khoẻ tình dục.
+                        </p>
+                        <button class="all-service">Xem tất cả dịch vụ</button>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-7">
+                    <div class="row g-4 services-grid-box"> 
+                        <div class="col-6">
+                            <div class="service-item one h-100">
+                                <img src="assets/icon-service-item1.png" alt="">
+                                <div class="service-item-title">Xét nghiệm HIV & STI</div>
+                                <div class="service-item-content">Xét nghiệm với những sinh phẩm ứng dụng công nghệ mới nhất được phép lưu hành tại Việt Nam.</div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="service-item two h-100">
+                                <img src="assets/icon-service-item2.svg" alt="">
+                                <div class="service-item-title">Điều trị ARV</div>
+                                <div class="service-item-content">Tư vấn, hỗ trợ bạn trong việc tiếp cận phác đồ điều trị HIV tiên tiến nhất được Bộ Y tế cấp phép.</div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="service-item three h-100">
+                                <img src="assets/icon-service-item3.png" alt="">
+                                <div class="service-item-title">Dự phòng PrEP</div>
+                                <div class="service-item-content">Dùng PrEP như một lá chắn bảo vệ hoàn hảo trước HIV, để luôn cảm thấy an toàn và cởi mở trước những cơ hội tình cảm mới.</div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="service-item four h-100">
+                                <img src="assets/icon-service-item4.png" alt="">
+                                <div class="service-item-title">Dự phòng PEP</div>
+                                <div class="service-item-content">Dùng PrEP như một lá chắn bảo vệ hoàn hảo trước HIV, để luôn cảm thấy an toàn và cởi mở trước những cơ hội tình cảm mới.</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
-    </section>
+        <a href="#" class="icon-share-social">
+            <img src="assets/icon-share-social.png" alt="icon-share-social">
+        </a>
+    </section> -->
+
     <section class="about-mediavax">
         <div class="container-custom about-wrapper">
             <div class="about-image">
@@ -300,7 +381,243 @@
                 </p>
             </div>
 
-            <div class="product-grid">
+            <div class="container my-5">
+                <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-4">
+                    <div class="col">
+                        <div class="product-card h-100 position-relative shadow-sm border-0">
+                            <span class="discount-badge position-absolute">-20%</span>
+                            
+                            <div class="product-img p-3">
+                                <img src="assets/prod1.png" class="img-fluid" alt="Thymolin">
+                            </div>
+                            
+                            <div class="product-info p-3 d-flex flex-column justify-content-between">
+                                <div>
+                                    <h3 class="product-name">THYMOLIN – TĂNG CƯỜNG SỨC ĐỀ KHÁNG</h3>
+                                    <p class="product-desc">Điều trị HIV và dự phòng phơi nhiễm HIV</p>
+                                </div>
+                                
+                                <div class="mt-3">
+                                    <p class="product-price mb-3">59.000đ / <span class="unit">Hộp</span></p>
+                                    <button class="btn-buy w-100">
+                                        <i class="fa-solid fa-cart-shopping me-2"></i> Mua ngay
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col">
+                        <div class="product-card h-100 position-relative shadow-sm border-0">
+                            <span class="discount-badge position-absolute">-20%</span>
+                            
+                            <div class="product-img p-3">
+                                <img src="assets/prod10.png" class="img-fluid" alt="Thymolin">
+                            </div>
+                            
+                            <div class="product-info p-3 d-flex flex-column justify-content-between">
+                                <div>
+                                    <h3 class="product-name">THYMOLIN – TĂNG CƯỜNG SỨC ĐỀ KHÁNG</h3>
+                                    <p class="product-desc">Điều trị HIV và dự phòng phơi nhiễm HIV</p>
+                                </div>
+                                
+                                <div class="mt-3">
+                                    <p class="product-price mb-3">59.000đ / <span class="unit">Hộp</span></p>
+                                    <button class="btn-buy w-100">
+                                        <i class="fa-solid fa-cart-shopping me-2"></i> Mua ngay
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-card h-100 position-relative shadow-sm border-0">
+                            <span class="discount-badge position-absolute">-20%</span>
+                            
+                            <div class="product-img p-3">
+                                <img src="assets/prod2.png" class="img-fluid" alt="Thymolin">
+                            </div>
+                            
+                            <div class="product-info p-3 d-flex flex-column justify-content-between">
+                                <div>
+                                    <h3 class="product-name">THYMOLIN – TĂNG CƯỜNG SỨC ĐỀ KHÁNG</h3>
+                                    <p class="product-desc">Điều trị HIV và dự phòng phơi nhiễm HIV</p>
+                                </div>
+                                
+                                <div class="mt-3">
+                                    <p class="product-price mb-3">59.000đ / <span class="unit">Hộp</span></p>
+                                    <button class="btn-buy w-100">
+                                        <i class="fa-solid fa-cart-shopping me-2"></i> Mua ngay
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-card h-100 position-relative shadow-sm border-0">
+                            <span class="discount-badge position-absolute">-20%</span>
+                            
+                            <div class="product-img p-3">
+                                <img src="assets/prod3.png" class="img-fluid" alt="Thymolin">
+                            </div>
+                            
+                            <div class="product-info p-3 d-flex flex-column justify-content-between">
+                                <div>
+                                    <h3 class="product-name">THYMOLIN – TĂNG CƯỜNG SỨC ĐỀ KHÁNG</h3>
+                                    <p class="product-desc">Điều trị HIV và dự phòng phơi nhiễm HIV</p>
+                                </div>
+                                
+                                <div class="mt-3">
+                                    <p class="product-price mb-3">59.000đ / <span class="unit">Hộp</span></p>
+                                    <button class="btn-buy w-100">
+                                        <i class="fa-solid fa-cart-shopping me-2"></i> Mua ngay
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-card h-100 position-relative shadow-sm border-0">
+                            <span class="discount-badge position-absolute">-20%</span>
+                            
+                            <div class="product-img p-3">
+                                <img src="assets/prod4.png" class="img-fluid" alt="Thymolin">
+                            </div>
+                            
+                            <div class="product-info p-3 d-flex flex-column justify-content-between">
+                                <div>
+                                    <h3 class="product-name">THYMOLIN – TĂNG CƯỜNG SỨC ĐỀ KHÁNG</h3>
+                                    <p class="product-desc">Điều trị HIV và dự phòng phơi nhiễm HIV</p>
+                                </div>
+                                
+                                <div class="mt-3">
+                                    <p class="product-price mb-3">59.000đ / <span class="unit">Hộp</span></p>
+                                    <button class="btn-buy w-100">
+                                        <i class="fa-solid fa-cart-shopping me-2"></i> Mua ngay
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-card h-100 position-relative shadow-sm border-0">
+                            <span class="discount-badge position-absolute">-20%</span>
+                            
+                            <div class="product-img p-3">
+                                <img src="assets/prod5.png" class="img-fluid" alt="Thymolin">
+                            </div>
+                            
+                            <div class="product-info p-3 d-flex flex-column justify-content-between">
+                                <div>
+                                    <h3 class="product-name">THYMOLIN – TĂNG CƯỜNG SỨC ĐỀ KHÁNG</h3>
+                                    <p class="product-desc">Điều trị HIV và dự phòng phơi nhiễm HIV</p>
+                                </div>
+                                
+                                <div class="mt-3">
+                                    <p class="product-price mb-3">59.000đ / <span class="unit">Hộp</span></p>
+                                    <button class="btn-buy w-100">
+                                        <i class="fa-solid fa-cart-shopping me-2"></i> Mua ngay
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-card h-100 position-relative shadow-sm border-0">
+                            <span class="discount-badge position-absolute">-20%</span>
+                            
+                            <div class="product-img p-3">
+                                <img src="assets/prod6.png" class="img-fluid" alt="Thymolin">
+                            </div>
+                            
+                            <div class="product-info p-3 d-flex flex-column justify-content-between">
+                                <div>
+                                    <h3 class="product-name">THYMOLIN – TĂNG CƯỜNG SỨC ĐỀ KHÁNG</h3>
+                                    <p class="product-desc">Điều trị HIV và dự phòng phơi nhiễm HIV</p>
+                                </div>
+                                
+                                <div class="mt-3">
+                                    <p class="product-price mb-3">59.000đ / <span class="unit">Hộp</span></p>
+                                    <button class="btn-buy w-100">
+                                        <i class="fa-solid fa-cart-shopping me-2"></i> Mua ngay
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-card h-100 position-relative shadow-sm border-0">
+                            <span class="discount-badge position-absolute">-20%</span>
+                            
+                            <div class="product-img p-3">
+                                <img src="assets/prod7.png" class="img-fluid" alt="Thymolin">
+                            </div>
+                            
+                            <div class="product-info p-3 d-flex flex-column justify-content-between">
+                                <div>
+                                    <h3 class="product-name">THYMOLIN – TĂNG CƯỜNG SỨC ĐỀ KHÁNG</h3>
+                                    <p class="product-desc">Điều trị HIV và dự phòng phơi nhiễm HIV</p>
+                                </div>
+                                
+                                <div class="mt-3">
+                                    <p class="product-price mb-3">59.000đ / <span class="unit">Hộp</span></p>
+                                    <button class="btn-buy w-100">
+                                        <i class="fa-solid fa-cart-shopping me-2"></i> Mua ngay
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-card h-100 position-relative shadow-sm border-0">
+                            <span class="discount-badge position-absolute">-20%</span>
+                            
+                            <div class="product-img p-3">
+                                <img src="assets/prod8.png" class="img-fluid" alt="Thymolin">
+                            </div>
+                            
+                            <div class="product-info p-3 d-flex flex-column justify-content-between">
+                                <div>
+                                    <h3 class="product-name">THYMOLIN – TĂNG CƯỜNG SỨC ĐỀ KHÁNG</h3>
+                                    <p class="product-desc">Điều trị HIV và dự phòng phơi nhiễm HIV</p>
+                                </div>
+                                
+                                <div class="mt-3">
+                                    <p class="product-price mb-3">59.000đ / <span class="unit">Hộp</span></p>
+                                    <button class="btn-buy w-100">
+                                        <i class="fa-solid fa-cart-shopping me-2"></i> Mua ngay
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-card h-100 position-relative shadow-sm border-0">
+                            <span class="discount-badge position-absolute">-20%</span>
+                            
+                            <div class="product-img p-3">
+                                <img src="assets/prod9.png" class="img-fluid" alt="Thymolin">
+                            </div>
+                            
+                            <div class="product-info p-3 d-flex flex-column justify-content-between">
+                                <div>
+                                    <h3 class="product-name">THYMOLIN – TĂNG CƯỜNG SỨC ĐỀ KHÁNG</h3>
+                                    <p class="product-desc">Điều trị HIV và dự phòng phơi nhiễm HIV</p>
+                                </div>
+                                
+                                <div class="mt-3">
+                                    <p class="product-price mb-3">59.000đ / <span class="unit">Hộp</span></p>
+                                    <button class="btn-buy w-100">
+                                        <i class="fa-solid fa-cart-shopping me-2"></i> Mua ngay
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- <div class="product-grid">
 
                 <div class="product-card">
                     <span class="discount-badge">-20%</span>
@@ -452,9 +769,11 @@
                     </div>
                 </div>
 
-            </div>
+            </div> -->
         </div>
     </section>
+
+
     <section class="doctors-section">
         <div class="container-custom">
             <div class="doctors-header">
@@ -605,12 +924,13 @@
                     <div class="news-card-large">
                         <div class="news-img-large">
                             <img src="assets/news-pic1.png" alt="Tin tức chính">
-                        </div>
-                        <div class="news-info">
                             <div class="news-date">
                                 <img src="assets/icon-calendar.png" alt="calendar">
                                 <span>24/12/2023</span>
                             </div>
+                        </div>
+                        <div class="news-info">
+                            
                             <h3 class="news-title-large">
                                 Hội diễn văn nghệ quần chúng chào mừng đại hội công đoàn các cấp nhiệm kỳ 2023 - 2028
                             </h3>
@@ -624,7 +944,7 @@
                     </div>
                 </div>
 
-                <div class="news-grid-small">
+                <!-- <div class="news-grid-small">
                     <div class="news-card-small">
                         <div class="news-img-small">
                             <img src="assets/news-pic2.png" alt="news">
@@ -688,6 +1008,77 @@
                             </h4>
                         </div>
                     </div>
+                </div> -->
+                <div class="row g-4 news-grid-small">
+    
+                    <div class="col-12 col-md-6">
+                        <div class="news-card-small">
+                            <div class="news-img-small text-center ">
+                                <img src="assets/news-pic2.png" alt="news" class="img-fluid">
+                            </div>
+                            <div class="news-info-small">
+                                <div class="news-date">
+                                    <img src="assets/icon-calendar.png" alt="calendar">
+                                    <span>24/12/2023</span>
+                                </div>
+                                <h4 class="news-title-small">
+                                    Bệnh viện nội tiết trung ương tổ chức thành công lễ kỷ niệm ngày quốc tế điều dưỡng và hội thi...
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <div class="news-card-small">
+                            <div class="news-img-small text-center ">
+                                <img src="assets/news-pic3.png" alt="news" class="img-fluid">
+                            </div>
+                            <div class="news-info-small">
+                                <div class="news-date">
+                                    <img src="assets/icon-calendar.png" alt="calendar">
+                                    <span>24/12/2023</span>
+                                </div>
+                                <h4 class="news-title-small">
+                                    Bệnh viện nội tiết trung ương tổ chức thành công lễ kỷ niệm ngày quốc tế điều dưỡng và hội thi...
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                            <div class="news-card-small">
+                                <div class="news-img-small text-center ">
+                                    <img src="assets/news-pic4.png" alt="news" class="img-fluid">
+                                </div>
+                                <div class="news-info-small">
+                                    <div class="news-date">
+                                        <img src="assets/icon-calendar.png" alt="calendar">
+                                        <span>24/12/2023</span>
+                                    </div>
+                                    <h4 class="news-title-small">
+                                        Bệnh viện nội tiết trung ương tổ chức thành công lễ kỷ niệm ngày quốc tế điều dưỡng và hội thi...
+                                    </h4>
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <div class="news-card-small">
+                            <div class="news-img-small text-center ">
+                                <img src="assets/news-pic5.png" alt="news" class="img-fluid">
+                            </div>
+                            <div class="news-info-small">
+                                <div class="news-date">
+                                    <img src="assets/icon-calendar.png" alt="calendar">
+                                    <span>24/12/2023</span>
+                                </div>
+                                <h4 class="news-title-small">
+                                    Bệnh viện nội tiết trung ương tổ chức thành công lễ kỷ niệm ngày quốc tế điều dưỡng và hội thi...
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
